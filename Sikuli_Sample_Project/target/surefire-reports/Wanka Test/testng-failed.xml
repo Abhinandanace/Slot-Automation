@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Wanka Test]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="test.TestListener"/>
+  </listeners>
+  <test name="Sample Test(failed)">
+    <classes>
+      <class name="test.TestAppium">
+        <methods>
+          <include name="room3TestCase"/>
+          <include name="room1TestCase"/>
+          <include name="lobby2TestCase"/>
+          <include name="room2TestCase"/>
+          <include name="lobby1Testcase"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- test.TestAppium -->
+    </classes>
+  </test> <!-- Sample Test(failed) -->
+</suite> <!-- Failed suite [Wanka Test] -->

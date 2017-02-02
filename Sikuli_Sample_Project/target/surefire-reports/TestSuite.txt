@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.781 sec <<< FAILURE!
+Ftue(test.TestAppium)  Time elapsed: 3.337 sec  <<< FAILURE!
+org.sikuli.script.FindFailed: can not find D:/Wanka project/New Images/lobby2Room1/lobby2room1_entry.png in S(0)[0,0 1680x1050]
+	at org.sikuli.script.Region.handleFindFailedShowDialog(Region.java:2189)
+	at org.sikuli.script.Region.handleFindFailed(Region.java:2134)
+	at org.sikuli.script.Region.wait(Region.java:2546)
+	at org.sikuli.script.Region.find(Region.java:2205)
+	at test.TestAppium.Ftue(TestAppium.java:348)
+
