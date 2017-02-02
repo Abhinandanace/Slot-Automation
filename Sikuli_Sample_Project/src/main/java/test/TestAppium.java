@@ -43,7 +43,7 @@ public class TestAppium {
 	GenericClass gc = new GenericClass();
 	PropertyFile pf = new PropertyFile();
 
-	//@BeforeSuite
+	@BeforeSuite
 	public void launchApp() throws FindFailed, InterruptedException, IOException {
 				Screen sc = new Screen();
          pf.setup();
@@ -385,26 +385,7 @@ public class TestAppium {
 	//FTUE Level-up Progressions
 	//level-2 Progressions
 		gc.progresion(9);
-	//level-3 Progressions		
 	
-		/*gc.progresion();
-	//level-4 Progressions		
-		gc.progresion();
-	//level-5 Progressions	
-		gc.progresion();
-	//level-6 Progressions	
-		gc.progresion();
-	//level-7 Progressions	
-		gc.progresion();
-	//level-8 Progressions	
-		gc.progresion();
-	//level-9 Progressions	
-		gc.progresion();
-	//level-10 Progressions	
-		gc.progresion();
-
-		
-		*/
 	}
 	
 	// Method to check Assert

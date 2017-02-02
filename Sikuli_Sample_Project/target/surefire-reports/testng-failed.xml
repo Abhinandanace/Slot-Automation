@@ -6,6 +6,7 @@
       <class name="test.TestAppium">
         <methods>
           <include name="Ftue"/>
+          <include name="launchApp"/>
         </methods>
       </class> <!-- test.TestAppium -->
     </classes>

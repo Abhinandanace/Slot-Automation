@@ -1,12 +1,26 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.781 sec <<< FAILURE!
-Ftue(test.TestAppium)  Time elapsed: 3.337 sec  <<< FAILURE!
-org.sikuli.script.FindFailed: can not find D:/Wanka project/New Images/lobby2Room1/lobby2room1_entry.png in S(0)[0,0 1680x1050]
-	at org.sikuli.script.Region.handleFindFailedShowDialog(Region.java:2189)
-	at org.sikuli.script.Region.handleFindFailed(Region.java:2134)
-	at org.sikuli.script.Region.wait(Region.java:2546)
-	at org.sikuli.script.Region.find(Region.java:2205)
-	at test.TestAppium.Ftue(TestAppium.java:348)
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 29.387 sec <<< FAILURE!
+launchApp(test.TestAppium)  Time elapsed: 29.317 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: A new session could not be created. (Original error: Could not find a connected Android device.) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 28.00 seconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'ISILBLRDT10029', ip: '10.99.68.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: io.appium.java_client.android.AndroidDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:39)
+	at test.PropertyFile.setup(PropertyFile.java:34)
+	at test.TestAppium.launchApp(TestAppium.java:49)
 
